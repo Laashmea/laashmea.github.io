@@ -98,6 +98,9 @@ div.item-text {
 	display:inline-block;
 }
 
+#MyMonkey {
+background-color: green;
+}
 img.image{
 border-radius: 50%;
 }
