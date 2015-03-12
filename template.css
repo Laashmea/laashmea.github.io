@@ -1,15 +1,18 @@
 @import url(http://fonts.googleapis.com/css?family=Josefin+Sans:700&subset=latin,latin-ext);
 
 body {
-	background-color: #CCFFFF;
+	background-image: url("swirl.png");
+	background-repeat: repeat;
 	font: 20px 'Josefin Sans';
 	font-weight: 700;
-	color: #ff0000;
+	/*color: #ff0000; */
 	margin: 0 auto;
 }
 
 header {
-        background-color: blue;
+        /*background-color: blue;*/
+		background-image: url("low_contrast_linen.png");
+	background-repeat: repeat;
         position: fixed; /* Makes the bar fixed */
         width: 100%; /* We want the bar to span the width of the window */
         /*z-index: 2;  We want the bar to overlap the rest of the content, by default HTML elements have a z-index of 1 and this gives our header priority over default elements*/
@@ -23,6 +26,7 @@ header {
   padding-top: 15px;
   font: 30px 'Josefin Sans';
   padding-left: 50px;
+  color: #00FFCC;
 }
 
 nav {
@@ -52,12 +56,12 @@ main {
 
 /* unvisited link */
 a.mainlink:link {
-    color: #FF0000;
+    color: #00FFCC;
 }
 
 /* visited link */
 a.mainlink:visited {
-    color: #00FF00;
+    color: #00FFCC;
 }
 
 /* mouse over link */
@@ -81,6 +85,8 @@ div#welcome-text {
   width: 100%;
   text-align: center;
   text-shadow: 2px 2px 2px #000000; /* Add shadow around the text so it is more visible against the background image */
+  color: #00FFCC;
+  font: 40px 'Josefin Sans';
 }
 
 div.three-items {
@@ -98,9 +104,9 @@ div.item-text {
 	display:inline-block;
 }
 
-#MyMonkey {
-background-color: green;
-}
-img.image{
+.image{
 border-radius: 50%;
+height: 200px;
+width: 200px;
+
 }
