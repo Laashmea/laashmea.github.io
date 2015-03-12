@@ -4,7 +4,7 @@
 body {
 	background-image: url("swirl.png");
 	background-repeat: repeat;
-	font: 20px 'Open Sans Condensed';
+	font: 20px 'Open Sans Condensed'; 
 	font-weight: 700;
 	/*color: #ff0000; */
 	margin: 0 auto;
