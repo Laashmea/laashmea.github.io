@@ -1,66 +1,162 @@
 <!DOCTYPE html>
-<link type="text/css" rel="stylesheet" href="style.css"/>
-   <html>
-   <head>
-       <meta charset="UTF-8"> 
-       <title>Leslie's Site!</title>
-       <link rel="stylesheet" type="text/css" href="template.css">
-   </head> 
-   <body>
+<html>
+<head>
+ <meta charset="UTF-8"> 
+ <title>Leslie Ashmeade</title>
 
-<header>
-        <div id="header-title">
-                <a href="index.html" class = "mainlink"> Laashmea</a>
-        </div>
-        <nav>
-                <ul>
-                        <li><a href="#about" class = "mainlink">About</a></li>
-                        <li><a href="" class = "mainlink">Portfolio</a></li>
-                        <li><a href="" class = "mainlink">Resume</a></li>
-                </ul>
-        </nav>
-</header>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+ <link rel="stylesheet" type="text/css" href="template.css">
+</head> 
+
+<body>
+
+   <nav id="main-nav" class="navbar navbar-default navbar-fixed-top">
+     <div id="header-title" class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+             <span class="icon-bar"/>
+             <span class="icon-bar"/>
+             <span class="icon-bar"/>
+          </button>
+          <a href="#Main" class="navbar-brand mainlink"><span class="glyphicon glyphicon-asterisk main-logo"></span></a>
+       </div>
+       <div class="collapse navbar-collapse" id="myNavbar">
+         <ul class="nav navbar-nav navbar-right">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#fun-facts">Fun Facts</a></li>
+            <li><a href="#contactme">Contact Me</a></li>
+            <li><a href="resume.pdf">Resume</a></li>
+         </ul>
+      </div>
+   </div>
+</nav>
+
 <main>
-   <section id="welcome">
-      <div id="welcome-text">
-        Welcome
-      </div>
-   </section>
-   <section id="about">
-         <h1>About</h1>
-         Hello, my name is Leslie Ashmeade and I am a Candidate for Bachelor of Computing and Financial Management at the University of Waterloo. 
-		 
-   </section>
-   
-   <section id="fun-facts">
-  <h1>Fun Facts</h1>
-  <h3>Top Three Hobbies</h3>
-  <div class="three-items">
-    <div class="an-item">
-      <div class="item-text">
-	  <img class="image" src="http://www.jbpiano.com/uploads/images/Possible%20main%20page%20pictures/piano.jpg">
-        <div>I enjoy playing the piano. I started playing since I was five years old and I have played up to level 10 RCM (Royal Conservatory of Music). I have always preferred to play classical music since I find the complexity of the style enjoyable. </div>
-      </div>
-    </div>
-    <div class="an-item">
-      <div class="item-text">
-        <img class="image" src="https://www.accacareers.com/career_centre/wp-content/uploads/2011/08/improve-language-skills-e1351588726382-1024x354.jpg">
-        <div>I love picking up new languages. I did my grade 12 French in Switzerland and France and it was quite the amazing experience. I have taught myself the Korean and the Russian alphabet for fun. Lastly, I joined a club to learn ASL (American Sign Language).</div>
-      </div>
-    </div>
-    <div class="an-item">
-      <div class="item-text">
-        <img class="image" src="http://davidwilletts.org.uk/wp-content/uploads/2014/12/java-programing.jpg">
-        <div>I enjoy programming and learning different ways to program. I love seeing the things I create come to life and how it could benefit another person. One of my biggest goals is to create a useful application that will be used to benefit many people.   </div>
-      </div>
-    </div>
+
+   <div id="Main" class="jumbotron text-center">
+      <h1>Leslie Ashmeade</h1>
+      <p>Candidate for Bachelor of Computing and Financial Management at the University of Waterloo.</p>
+   </div>
+
+
+
+   <div id="about" class="swirl container-fluid"> 
+      <section>
+      <h1>About</h1>
+         <div class="row">
+            <div class="col-sm-4 text-center">
+               <span class="glyphicon glyphicon-education logo"></span>
+               <p>Waterloo Student Studying Computer Science and Finance</p>
+               <span class="glyphicon glyphicon-briefcase logo"></span>
+               <p>Previous Work Experience in Software Development and Financial Operations</p>
+            </div>
+            <div class="col-sm-4 text-center">
+            <span class="glyphicon glyphicon-thumbs-up logo"></span>
+               <p>Strong teamwork skills from working with various teams</p>
+            <span class="glyphicon glyphicon-fire logo"></span>
+               <p>The drive to go above and beyond to provide great work</p>
+            </div>
+            <div class="col-sm-4">
+               <img class="corpimage img-responsive" src="corporatephoto2.jpg"/>
+            </div>  
+         </div>
+      </section>
+   </div>
+
+
+
+   <div id="experience" class="container-fluid gray-bg">
+      <section>
+         <h1>Experience</h1>
+         <div class="row text-center">
+            <div class="col-sm-4">
+               <h3>Arthur J. Gallagher Canada</h3>
+               <h4>Financial Administrative Assistant Co-op</h4>
+               <p> My first coop term and learn a lot about the insurance industry. I assisted the IBA Team (Insurance Broker Accounting) and worked alongside the CAO and other senior management. </p>
+            </div>
+            <div class="col-sm-4">
+               <h3>Softek Inc.</h3>
+               <h4>Desktop Application Developer Co-op</h4>
+               <p>My second coop term and learned about programming for financial industry. Build software that tracked a trader's position in real time. Prototype was released for testing.</p>
+            </div>
+            <div class="col-sm-4">
+               <h3>Sun Life Financial</h3>
+               <h4>Web Application Developer Co-op</h4>
+               <p>My third coop term where I worked on the Application and Operations services team. I found bugs and made improvements to a server comparison tool for the eBusiness team.</p>
+            </div>
+         </div>
+      </section>
+   </div>
+
+
+   <div id="fun-facts" class="container-fluid swirl">
+      <section>
+        <h1>Fun Facts</h1>
+        <h3>Top Three Hobbies</h3>
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="text-center">
+               <img class="image img-responsive center-block" src="piano.jpg">
+               <p>
+                  Playing music is one of my favourite pastimes. I started playing the piano since I was five years old and I have been practicing for my level 10 RCM (Royal Conservatory of Music). In high school, I started to teach myself how to play the saxophone, the flute, the oboe, the guitar, and the clarinet.
+               </p>
+            </div>
+         </div>
+         <div class="col-sm-4">
+            <div class="text-center">
+              <img class="image img-responsive center-block" src="languages.jpg">
+              <p>I love to learn new languages. I did my grade 12 French course in Switzerland and France provided by a summer school program. I taught myself the Korean and the Russian alphabet for fun. I try to keep building on what I know by joining language clubs and doing my own research.</p>
+           </div>
+        </div>
+        <div class="col-sm-4">
+         <div class="text-center">
+           <img class="image img-responsive center-block" src="code.jpg">
+           <p>I enjoy programming and learning different ways to program. I love seeing the things I create come to life and how it could benefit another person. One of my biggest goals is to create a useful application that will be used to benefit many people.
+           </p>
+        </div>
+     </div>
   </div>
 </section>
-   </main>
+</div>
+</main>
+<footer id="contactme" class="container-fluid text-center linen">
+<h2>Contact Me</h2>
+  <p><span class="glyphicon glyphicon-envelope">  </span>  leslie.ashmeade@gmail.com</p> 
+  <p><span class="fa fa-linkedin">  </span><a class="whitelink" href="https://ca.linkedin.com/in/leslie-ashmeade">  https://ca.linkedin.com/in/leslie-ashmeade</a> </p> 
+</footer>
+<script>
+   $(document).ready(function(){
+  // Add smooth scrolling to all links in navbar + footer link
+  $(".navbar-nav li a").on('click', function(event) {
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== ""){
+      // Prevent default anchor click behavior
+      event.preventDefault();
 
-   </body>
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: ($(hash).offset().top - $("#main-nav").height())
+     }, 900, function(){
+
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+     });
+    } // End if
+ });
+})
+</script>
+</body>
 </html>
 
-	
+
 
 
