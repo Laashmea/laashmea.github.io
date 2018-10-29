@@ -1,0 +1,16 @@
+/* You can add global styles to this file, and also import other style files */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+body {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 10pt;
+    background: #C12267;
+    color: #FFF5EE;/*#B6B6B4;#45172C;*/
+  }
+
+a {
+    color: #FFF5EE;
+    &:hover {
+        color:#F9966B;
+    }
+}
