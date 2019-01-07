@@ -1,3 +1,14 @@
+.bg-peach {
+    background-color:#FFF5EE;
+}
+
+a {
+    color: #C12267;
+    &:hover {
+        color:#F9966B;
+    }
+}
+
 body {
-    background: #FFF5EE;
+    letter-spacing: 2px; 
 }
