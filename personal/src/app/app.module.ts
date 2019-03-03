@@ -1,7 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { ChartsModule } from 'ng2-charts';
-import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 
 import { FormsModule} from '@angular/forms'
 import { AppRoutingModule } from './app-routing.module';
@@ -32,9 +31,9 @@ library.add(fas, far, fab);
     AppRoutingModule,
     FormsModule,
     FontAwesomeModule,
-    ChartsModule
+    ChartsModule,
   ],
-  providers: [{provide: LocationStrategy, useClass: HashLocationStrategy}],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
