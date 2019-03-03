@@ -10,14 +10,11 @@
 
 .bg-magenta {
     background: #C12267;
-    .title {
-        color: rgb(255, 212, 181);
-    }
-    
-    .subtitle {
+
+    .title, .subtitle, .label {
         color: #FFF5EE;
         strong {
-            color: rgb(255, 212, 181);
+            color: #ffd4b5;
         }
     }
 
@@ -26,16 +23,32 @@
     }
 }
 
+.textarea {
+    resize: none;
+}
+
 .bg-olive {
     background: #ABC04D;
-    .title {
-        color: #fff4b5;
-    }
     
-    .subtitle {
+    .title, .subtitle, .label {
         color: #FFF5EE;
         strong {
-            color: rgb(255, 212, 181);
+            color: #ffd4b5;
+        }
+    }
+
+    .container {
+        color: #FFF5EE;
+    }
+}
+
+.bg-orange {
+    background:  #e67a3b;
+    
+    .title, .subtitle, .label {
+        color: #FFF5EE;
+        strong {
+            color: #ffd4b5;
         }
     }
 

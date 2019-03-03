@@ -36,7 +36,8 @@
                 "node_modules/bulma/sass/utilities",
                 "node_modules/bulma/sass/layout",
                 "node_modules/bulma/sass/elements",
-                "node_modules/bulma/sass/components"
+                "node_modules/bulma/sass/components",
+                "node_modules/chart.js/src/chart.js"
               ]
             },
             "scripts": []
